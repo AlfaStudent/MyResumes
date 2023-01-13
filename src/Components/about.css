@@ -1,0 +1,86 @@
+.suis {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  a {
+    text-align: center;
+    display: block;
+    margin-top: 30px;
+  }
+  
+  p {
+    text-align: justify;
+    margin-bottom: 10px;
+  }
+  
+  div {
+    margin: 20px;
+  }
+
+
+  /* Styles pour le menu burger */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-btn {
+    display: none;
+}
+
+/* Styles pour les liens dans le menu */
+nav a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 1rem;
+}
+
+/* Styles pour les liens dans le menu (affiché par défaut) */
+nav a:not(.menu-btn) {
+    display: inline-block;
+}
+
+/* Styles pour les liens dans le menu (masqué par défaut) */
+nav a.menu-btn,
+nav a.menu-btn + a {
+    display: none;
+}
+
+/* Styles pour les liens dans le menu (affiché lorsque le menu burger est activé) */
+nav a.menu-btn:checked + a {
+    display: block;
+}
+
+/* Styles pour le bouton du menu burger */
+nav label {
+    display: block;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    background: #ddd;
+    border-radius: 4px;
+}
+
+/* Styles pour le bouton du menu burger (lorsqu'il est activé) */
+nav input:checked + label {
+    background: #555;
+    color: #fff;
+}
+
+/* Styles pour le bouton du menu burger (affiché sur les écrans petits) */
+@media (max-width: 600px) {
+    nav a:not(.menu-btn) {
+        display: none;
+    }
+    nav .menu-btn {
+        display: block;
+    }
+}
