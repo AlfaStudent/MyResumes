@@ -1,86 +1,50 @@
-.suis {
-    text-align: center;
-    font-size: 2em;
-    font-weight: bold;
-    margin-bottom: 30px;
-  }
-  
-  img {
-    display: block;
-    margin: 0 auto;
-  }
-  
-  a {
-    text-align: center;
-    display: block;
-    margin-top: 30px;
-  }
-  
-  p {
-    text-align: justify;
-    margin-bottom: 10px;
-  }
-  
-  div {
-    margin: 20px;
-  }
-
-
-  /* Styles pour le menu burger */
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+* {
+    background-color: #F5F5DC;
+}
+#Composant {
+    background-color: #F5F5DC;
 }
 
-.menu-btn {
-    display: none;
+#nav {
+    
+    right : 30px;
+    margin-left:  350px;
 }
-
-/* Styles pour les liens dans le menu */
-nav a {
-    text-decoration: none;
-    color: #000;
-    margin: 0 1rem;
+.Accueil {
+    
 }
-
-/* Styles pour les liens dans le menu (affiché par défaut) */
-nav a:not(.menu-btn) {
-    display: inline-block;
-}
-
-/* Styles pour les liens dans le menu (masqué par défaut) */
-nav a.menu-btn,
-nav a.menu-btn + a {
-    display: none;
-}
-
-/* Styles pour les liens dans le menu (affiché lorsque le menu burger est activé) */
-nav a.menu-btn:checked + a {
-    display: block;
-}
-
-/* Styles pour le bouton du menu burger */
-nav label {
-    display: block;
+.Experiences {
+    margin-left : 100px;
+    padding: 1em ;
+    display : inline-block;
     cursor: pointer;
-    padding: 0.5rem 1rem;
-    background: #ddd;
-    border-radius: 4px;
+    box-shadow: 5px 5px 5px 5px;
+    transition: box-shadow 0.1s ;
+    font-style: italic;
+}
+.Experiences:hover {
+    box-shadow: 0px 0px 0px 10px;
+}
+.Competences {
+    margin-left: 50px;
 }
 
-/* Styles pour le bouton du menu burger (lorsqu'il est activé) */
-nav input:checked + label {
-    background: #555;
-    color: #fff;
+.Projects {
+    margin-left: 50px;
+}
+.Formations {
+    margin-left: 50px;
+}
+.Contact {
+    margin-left: 50px;
 }
 
-/* Styles pour le bouton du menu burger (affiché sur les écrans petits) */
-@media (max-width: 600px) {
-    nav a:not(.menu-btn) {
-        display: none;
-    }
-    nav .menu-btn {
-        display: block;
-    }
+.Github {
+    margin-left: 100px;
+    width :"40px";
+    height : "40px"
+}
+
+.Linkdin {
+    margin-left: 100px;
 }

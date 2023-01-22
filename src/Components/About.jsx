@@ -1,10 +1,9 @@
 import Myimage from "../photo.jpeg";
 import CV from "../cv-alpha-conde.pdf"
-<link rel ="stylesheet" type = "text.css" href ="about.css"/>
 const About = () => {
     return (
         
-        <div>
+        <div id = "Composant">
             <link rel ="stylesheet" type = "text.css" href ="about.css"/>
 
             <div>
@@ -12,12 +11,12 @@ const About = () => {
             </div>
             <div>
                 <p> je m'appelle Alpha Abdoulaye Conde  </p>
-                <p> toujours été passionné par l'informatique , je suis actuellement étudiant en Bachelor 3
+                <p> toujours été passionné par l'informatique , je suis actuellement étudiant
                     Développement web à l'ecole Sup de Vinci . j'ai acquis des compétences solides en programmatiuon web , notamment en utilisant 
                     les technologies React , C#,  , Python, . je suis également experimenté dans l'utilisation de Git et de l'intégration Continue.
                 </p>
                 <p>
-                    Je suis tres enthoussiaste a l'idée de poursuivre mes études en integrant un Master en developpemnt web Full stack a la rentrée prochaine
+                    Je suis tres enthousiaste a l'idée de poursuivre mes études en integrant un Master en developpemnt web Full stack a la rentrée prochaine
                     Je suis convaincu que cela me permettra de continuer a developper mes compétences  et de devenir un developpeur web experimenté etr compétent.
 
                 </p>

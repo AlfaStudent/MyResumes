@@ -1,15 +1,17 @@
 const Contact = () => { 
     return (
-        <div>
-            <div>
-                <h1> Contact  </h1>
-                E-Mail : aboul.conde99@gmail.com
-                Tel : 0767453691
-                LinkdIn :http://linkedin.com/in/alpha-abdoulaye-conde-703252204
-                
-            </div>
-            <div>
+        <div id = "Composant">
+            <div id = 'Contact'>
+                <div>
+                    <h1> Contact  </h1>
+                    <p>E-Mail : aboul.conde99@gmail.com </p>
+                    <p>Tel : 0767453691</p>
+                    <p>LinkdIn :http://linkedin.com/in/alpha-abdoulaye-conde-703252204</p>
 
+                </div>
+                <div>
+
+                </div>
             </div>
         </div>
     )
