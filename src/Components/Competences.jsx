@@ -3,8 +3,8 @@ const Competences = () => {
         <div id = "Composant">
             <div id = 'Competences'>
                 <div> 
-                    <h4> Apres quelques années d'etude , quelques projets realisés, j'ai pu acquerir quelques connaissances dans diverses 
-                    domaines et de technologies  </h4> 
+                    <h4>Au cours des années d'études et des projets réalisés, j'ai pu acquérir une expertise dans plusieurs domaines,
+                         technologies et langages de programmation.  </h4> 
                 
 
                 </div>

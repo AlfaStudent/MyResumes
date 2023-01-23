@@ -10,19 +10,18 @@ const About = () => {
                 <h1 className="suis"> Qui Suis-je?  </h1>
             </div>
             <div>
-                <p> je m'appelle Alpha Abdoulaye Conde  </p>
-                <p> toujours été passionné par l'informatique , je suis actuellement étudiant
-                    Développement web à l'ecole Sup de Vinci . j'ai acquis des compétences solides en programmatiuon web , notamment en utilisant 
-                    les technologies React , C#,  , Python, . je suis également experimenté dans l'utilisation de Git et de l'intégration Continue.
+                <p> Je suis un développeur web passionné, doté d'une solide formation en développement web et d'une expérience professionnelle variée.
+                     J'ai une forte capacité d'adaptation, à apprendre rapidement de nouvelles technologies et à travailler en équipe.
+                      Mon esprit créatif et mon attitude orientée résolution de problèmes me permettent de gérer efficacement des projets indépendamment. 
+                      Je suis en constante évolution en termes de nouvelles technologies et tendances et impatient de mettre mes compétences à contribution pour relever les différents défis et contribuer au succès de votre entreprise
                 </p>
                 <p>
-                    Je suis tres enthousiaste a l'idée de poursuivre mes études en integrant un Master en developpemnt web Full stack a la rentrée prochaine
-                    Je suis convaincu que cela me permettra de continuer a developper mes compétences  et de devenir un developpeur web experimenté etr compétent.
-
+                    Je suis tres enthousiaste à l'idée de poursuivre mes études en integrant un Master en developpemnt web Full stack à la rentrée prochaine
+                    Je suis convaincu que cela me permettra de continuer à developper mes compétences et de devenir un developpeur experimenté et compétent.
                 </p>
                 <p>
-                    En dehors de mes études , je suis également intéressé par les nouvelles technologies et je passe beaucoup de temps a experimenter avec de nouveaux 
-                    frameworks. J'aime egalement participer a des proojets open Source pour continier a apprendre et a partager mes connaissances avec d'autres developpeurs.
+                    En dehors de mes études , je suis également intéressé par les nouvelles technologies et je passe beaucoup de temps à experimenter de nouveaux 
+                    frameworks. J'aime egalement participer à des proojets open Source pour continuier à apprendre et à partager mes connaissances avec d'autres developpeurs.
                 </p>
 
             </div>
