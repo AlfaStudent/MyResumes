@@ -32,7 +32,7 @@ const About = () => {
             </div>
             <div>
                 <p> vous pouvez acceder a mon CV juste en bas </p>
-                <a href = {CV}> Voici mon CV </a>
+                <a href = {CV} target ='_blank'> Voici mon CV </a>
 
             </div>
         </div>

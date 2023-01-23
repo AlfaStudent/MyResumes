@@ -8,12 +8,26 @@
 #nav {
     
     right : 30px;
-    margin-left:  350px;
+    margin-left:  150px;
 }
-.Accueil {
+.Home {
     
 }
-.Experiences {
+.Git {
+    overflow: hidden;
+    border : 5px solid white;
+    border-radius: 80%;
+
+}
+.Linkdi {
+    overflow: hidden;
+    border : 5px solid white;
+    border-radius: 80%;
+    
+}
+
+
+.Menu {
     margin-left : 100px;
     padding: 1em ;
     display : inline-block;
@@ -22,29 +36,62 @@
     transition: box-shadow 0.1s ;
     font-style: italic;
 }
-.Experiences:hover {
+.Menu:hover {
     box-shadow: 0px 0px 0px 10px;
 }
-.Competences {
-    margin-left: 50px;
-}
 
-.Projects {
-    margin-left: 50px;
-}
-.Formations {
-    margin-left: 50px;
-}
-.Contact {
-    margin-left: 50px;
-}
 
 .Github {
-    margin-left: 100px;
-    width :"40px";
-    height : "40px"
+    margin-left: 300px;
+    
+    
 }
 
 .Linkdin {
-    margin-left: 100px;
+    margin-left: 50px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#Composant {
+    text-align: center;
+    
+    background-size: cover;
+    padding: 20px; 
+}
+
+#Composant h1 {
+    color: #333;
+    font-size: 2em;
+    font-weight: bold; 
+}
+
+#Composant p {
+    font-size: 1.2em;
+    line-height: 1.5;
+    color: #555; 
+}
+
+#Composant img {
+    border-radius: 50%;
+    margin: 20px auto;
+    box-shadow: 0 0 10px #ccc; 
+}
+
+#Composant a {
+    color: #336699;
+    text-decoration: none;
+    font-weight: bold;
+}
+
