@@ -1,18 +1,18 @@
 * {
     background-color: #F5F5DC;
 }
-#Composant {
+#Composant{
     background-color: #F5F5DC;
+    text-align: center;
+    background-size: cover;
+    padding: 20px; 
 }
 
 #nav {
-    
     right : 30px;
-    margin-left:  150px;
+    margin-left:  130px;
 }
-.Home {
-    
-}
+
 .Git {
     overflow: hidden;
     border : 5px solid white;
@@ -25,7 +25,6 @@
     border-radius: 80%;
     
 }
-
 
 .Menu {
     margin-left : 100px;
@@ -43,32 +42,10 @@
 
 .Github {
     margin-left: 300px;
-    
-    
 }
 
 .Linkdin {
     margin-left: 50px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#Composant {
-    text-align: center;
-    
-    background-size: cover;
-    padding: 20px; 
 }
 
 #Composant h1 {
@@ -93,5 +70,11 @@
     color: #336699;
     text-decoration: none;
     font-weight: bold;
+    
+}
+#Composant a:hover {
+    color: white;
+    background-color: blue;
+
 }
 

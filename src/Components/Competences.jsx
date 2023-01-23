@@ -3,8 +3,8 @@ const Competences = () => {
         <div id = "Composant">
             <div id = 'Competences'>
                 <div> 
-                    <em> Apres quelques années d'etude , quelques projets realisés, j'ai pu acquerir quelques connaissances dans diverses 
-                    domaines et de technologies  </em> 
+                    <h4> Apres quelques années d'etude , quelques projets realisés, j'ai pu acquerir quelques connaissances dans diverses 
+                    domaines et de technologies  </h4> 
                 
 
                 </div>
@@ -23,13 +23,15 @@ const Competences = () => {
                     </ul>
                 </div>
                 <div>
+                        <h4>Autres Compétences </h4>
+
                     <ul>
                         <li> Web Design </li>
                         <li>Creation de site Internet </li>
                         <li> Gestion de Données </li>
                         <li> Wordpress </li>
                         <li> Prestashop </li>
-                        <li>Methode Scrum </li>
+                        <li>Methode Agile (SCRUM)</li>
                     </ul>
                 </div>
 

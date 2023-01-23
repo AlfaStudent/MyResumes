@@ -31,8 +31,8 @@ const About = () => {
                 <img src = {Myimage} alt = 'My image' style={{width: '20%', height : '40%'}}/>
             </div>
             <div>
-                <p> vous pouvez acceder a mon CV juste en bas </p>
-                <a href = {CV} target ='_blank'> Voici mon CV </a>
+                <p> Vous pouvez accéder à mon curriculum vitae en cliquant sur le lien en bas de cette page </p>
+                <a href = {CV} target ='_blank'> Mon CV </a>
 
             </div>
         </div>

@@ -1,3 +1,4 @@
+import Result from "../Result.pdf"
 const Formation = () => { 
     return (
         <div id = "Composant">
@@ -8,6 +9,7 @@ const Formation = () => {
                     <h4> Ecole Sup de vinci </h4>
                     <p> depuis Septembre de 2022 </p>
                     <p> Initiation à quelques Frameworks : React, Angular, VueJs, .Net, Synfony. </p>
+                    <a href = {Result} target = "_blank" >Resultat du Test d'admission </a>
                 </div>
                 <div> 
                     <h2> Licence 3 Informatique </h2>
