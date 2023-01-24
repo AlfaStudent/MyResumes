@@ -1,4 +1,6 @@
 const Competences = () => { 
+    const Competence = ["HTML", "CSS3", "PHP", "JavaScript", "React", "C", "OCAML", "C#", ".NET"];
+    const Autres = ["Web Design", "Création de site Internet", "Gestion de Données", "WordPress", "PrestaShop", "Methode Agile (SCRUM) "]
     return (
         <div id = "Composant">
             <div id = 'Competences'>
@@ -9,29 +11,19 @@ const Competences = () => {
 
                 </div>
                 <div>
+                    
                     <ul>
-                        <li> HTML5</li>
-                        <li> CSS3</li>
-                        <li> PHP </li>
-                        <li> JavaScript </li>
-                        <li> React </li>
-                        <li> C</li>
-                        <li>OCAML</li>
-                        <li>C#</li>
-                        <li>.NET</li>
-
+                        {Competence.map(compe =>(
+                            <li key = {compe}> {compe}</li>
+                        ) )}
                     </ul>
                 </div>
                 <div>
                         <h4>Autres Compétences </h4>
-
                     <ul>
-                        <li> Web Design </li>
-                        <li>Creation de site Internet </li>
-                        <li> Gestion de Données </li>
-                        <li> Wordpress </li>
-                        <li> Prestashop </li>
-                        <li>Methode Agile (SCRUM)</li>
+                    {Autres.map(skill =>(
+                            <li key = {skill}> {skill}</li>
+                        ) )}
                     </ul>
                 </div>
 

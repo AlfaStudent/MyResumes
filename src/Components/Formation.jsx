@@ -7,7 +7,7 @@ const Formation = () => {
             <div id = 'Formation'>
                 <h1> FORMATION </h1>
                 <div> 
-                    <h3> Bachelor 3 Développement Web </h3>
+                    <h3> Bachelor 3 Développement Web  - Full Stack</h3>
                     <h4> Ecole Sup de vinci </h4> <img src= {SDV} style = {{width : '7%', height : '7%'}}/>
                     <p> depuis Septembre de 2022 </p>
                     <p> Initiation à quelques Frameworks : React, Angular, VueJs, .Net, Synfony. </p>
