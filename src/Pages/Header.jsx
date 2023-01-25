@@ -20,8 +20,8 @@ const Header = () => {
                 {/* <Link to = "/About" className="About"> About </Link> */}
                 <Link to = "/Formation" className="Menu"> Formation </Link>
                 <Link to = "/Contact" className="Menu"> Contact </Link>
-                <a href = "https://github.com/AlfaStudent" className="Github"> <img src = {github}  className = "Git" style = {{width :"50px", height : "50px"}} /></a>
-                <a href = "http://linkedin.com/in/alpha-abdoulaye-conde-703252204" className="Linkdin">  <img src = {linkdin} className = "Linkdi" style  = {{width : "50px" , height : "50px" }}/></a>
+                <a href = "https://github.com/AlfaStudent" className="Github"> <img src = {github} alt = "Github"  className = "Git" style = {{width :"50px", height : "50px"}} /></a>
+                <a href = "http://linkedin.com/in/alpha-abdoulaye-conde-703252204" className="Linkdin">  <img src = {linkdin} alt = "Linkdin" className = "Linkdi" style  = {{width : "50px" , height : "50px" }}/></a>
                 {/* <Link to = "/Information" className="info"> Information </Link>
                 <Link to = "/Contact" className="contact"> Contact </Link> */}
 
