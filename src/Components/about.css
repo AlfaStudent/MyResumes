@@ -9,8 +9,20 @@
 }
 
 #nav {
-    right : 30px;
-    margin-left:  130px;
+    width: 1180px;
+    margin : 0 auto;
+    text-align: center;
+    
+    
+}
+#Navigation {
+    margin: 0 auto;
+    text-align: center;
+    
+    width:  1270px;
+   
+   
+    
 }
 
 .Git {
@@ -27,7 +39,7 @@
 }
 
 .Menu {
-    margin-left : 100px;
+    margin-left : 60px;
     padding: 1em ;
     display : inline-block;
     cursor: pointer;
@@ -41,7 +53,7 @@
 
 
 .Github {
-    margin-left: 300px;
+    margin-left: 100px;
 }
 
 .Linkdin {
@@ -77,4 +89,37 @@
     background-color: blue;
 
 }
+#navigation {
+    font-size: 18px;
+}
+@media only screen and (max-width: 1183px) {
+    #Navigation {
+
+        width: 80%;
+        display : flex;
+        flex-wrap: nowrap;
+    }
+    #nav {
+        width: 80%;
+        display : flex;
+        flex-wrap: nowrap;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #Navigation {
+        height: 80px;
+        width: 80%;
+        display : flex;
+        flex-wrap: nowrap;
+    }
+    #nav {
+        font-size: 9px;
+        width: 80%;
+        display : flex;
+        flex-wrap: nowrap;
+    }
+}
+
+
+
 

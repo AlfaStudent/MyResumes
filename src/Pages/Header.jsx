@@ -7,7 +7,7 @@ import logohome from "../logoHome.png"
 
 const Header = () => {
     return (
-        <div id = "">
+        <div id = "Navigation">
             
             
             <nav id = "nav">
