@@ -6,7 +6,7 @@ import Projects from "./Projects";
 
 const Accueil = () => { 
     return (
-        <div>
+        <div id = "AllComponents">
             <Experiences/>
             <Competences/>
             <Projects/>
